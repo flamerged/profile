@@ -54,11 +54,11 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .card-text {
     text-align: justify;
-    margin: 40px 0;
 }
 
 .card-body a {
