@@ -1,0 +1,29 @@
+.profil {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 80px;
+  margin-right: 80px;
+
+  .profil-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    h1 {
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      color: $sky;
+    }
+  }
+
+  .profil-image {
+    background: url("../../img/profil.jpg");
+    background-size: cover;
+    margin-left: 40px;
+    width: 400px;
+    height: 400px;
+  }
+}
